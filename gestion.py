@@ -3,7 +3,7 @@ import csv
 
 class Gestion:
     def __init__(self):
-        self.__admin = mysql.connector.connect(host='localhost', user='root', password='vatefaireencule', database='boutique')
+        self.__admin = mysql.connector.connect(host='localhost', user='root', password='rootmdp', database='boutique')
         self.cursor = self.__admin.cursor()
 
 #methode supprimer poduit de la liste
